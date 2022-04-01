@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/time-now",
+  "version": "0.0.0",
+  "description": "Time in seconds since the epoch.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/time-now.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtime",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "now",
+    "date.now",
+    "epoch",
+    "unix",
+    "timestamp",
+    "ts",
+    "posix",
+    "time",
+    "polyfill"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
