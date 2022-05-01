@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-now",
-  "version": "0.0.0",
+  "version": "0.0.8",
   "description": "Time in seconds since the epoch.",
   "license": "Apache-2.0",
   "author": {
