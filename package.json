@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-now",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Time in seconds since the epoch.",
   "license": "Apache-2.0",
   "author": {
@@ -38,15 +38,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.0.8",
-    "@stdlib/cli-ctor": "^0.0.3",
-    "@stdlib/fs-read-file": "^0.0.8",
-    "@stdlib/math-base-special-round": "^0.0.7"
+    "@stdlib/assert-is-function": "^0.1.0",
+    "@stdlib/cli-ctor": "^0.1.0",
+    "@stdlib/fs-read-file": "^0.1.0",
+    "@stdlib/math-base-special-round": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.0.8",
     "@stdlib/assert-is-nonnegative-integer": "^0.0.7",
-    "@stdlib/assert-is-windows": "^0.0.7",
+    "@stdlib/assert-is-windows": "^0.1.0",
     "@stdlib/process-exec-path": "^0.0.7",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
