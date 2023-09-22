@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-now/tags). For example,
+
+```javascript
 import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@v0.1.0-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ var ts = now();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@v0.1.0-deno/mod.js';
+import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@deno/mod.js';
 
 var t0 = now();
 
