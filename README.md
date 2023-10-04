@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@deno/mod.js';
+import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@v0.1.1-deno/mod.js';
 ```
 
 #### now()
@@ -75,7 +75,7 @@ var ts = now();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@deno/mod.js';
+import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@v0.1.1-deno/mod.js';
 
 var t0 = now();
 
