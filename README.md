@@ -35,19 +35,84 @@ limitations under the License.
 
 > Time in seconds since the epoch.
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/time-now
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+</section>
 
+<section class="usage">
 
+## Usage
 
+```javascript
+var now = require( '@stdlib/time-now' );
+```
+
+#### now()
+
+Returns the time in **seconds** since the epoch.
+
+```javascript
+var ts = now();
+// returns <number>
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="notes">
+
+## Notes
+
+-   The [Unix epoch][unix-time] is 00:00:00 UTC on 1 January 1970.
+
+</section>
+
+<!-- /.notes -->
+
+<section class="examples">
+
+## Examples
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var now = require( '@stdlib/time-now' );
+
+var t0 = now();
+
+setTimeout( onTimeout, 2000 );
+
+function onTimeout() {
+    var t1 = now();
+    console.log( 'Seconds elapsed: %d', t1-t0 );
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -65,7 +130,7 @@ npm install -g @stdlib/time-now-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: now [options]
@@ -88,7 +153,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ now
@@ -107,11 +172,6 @@ $ now
 
 <section class="related">
 
-## See Also
-
--   <span class="package-name">[`@stdlib/time-now`][@stdlib/time-now]</span><span class="delimiter">: </span><span class="description">time in seconds since the epoch.</span>
-
-
 </section>
 
 <!-- /.related -->
@@ -129,7 +189,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -152,8 +212,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/time-now-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/time-now-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/time-now.svg
+[npm-url]: https://npmjs.org/package/@stdlib/time-now
 
 [test-image]: https://github.com/stdlib-js/time-now/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/time-now/actions/workflows/test.yml?query=branch:main
