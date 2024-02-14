@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-now",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Time in seconds since the epoch.",
   "license": "Apache-2.0",
   "author": {
@@ -38,10 +38,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.1.1",
+    "@stdlib/assert-is-function": "^0.2.0",
     "@stdlib/cli-ctor": "^0.1.1",
-    "@stdlib/fs-read-file": "^0.1.1",
-    "@stdlib/math-base-special-round": "^0.1.1"
+    "@stdlib/fs-read-file": "^0.2.0",
+    "@stdlib/math-base-special-round": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.1",
