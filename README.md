@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@esm/index.mjs';
+import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@v0.2.1-esm/index.mjs';
 ```
 
 #### now()
@@ -80,7 +80,7 @@ var ts = now();
 <body>
 <script type="module">
 
-import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@esm/index.mjs';
+import now from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-now@v0.2.1-esm/index.mjs';
 
 var t0 = now();
 
