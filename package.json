@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/time-now",
+  "name": "@stdlib/time-now-cli",
   "version": "0.2.2",
   "description": "Time in seconds since the epoch.",
   "license": "Apache-2.0",
@@ -16,19 +16,6 @@
   "bin": {
     "now": "./bin/cli"
   },
-  "main": "./lib",
-  "directories": {
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples"
-  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -38,15 +25,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/cli-ctor": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",
-    "@stdlib/math-base-special-round": "^0.3.0",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/time-now": "0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-windows": "^0.2.2",
     "@stdlib/process-exec-path": "^0.2.2",
     "proxyquire": "^2.0.0",
@@ -54,21 +38,6 @@
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdtime",
