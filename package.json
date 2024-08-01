@@ -41,11 +41,11 @@
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/cli-ctor": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",
-    "@stdlib/math-base-special-round": "^0.2.1"
+    "@stdlib/math-base-special-round": "^0.3.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
+    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-windows": "^0.2.2",
     "@stdlib/process-exec-path": "^0.2.2",
     "proxyquire": "^2.0.0",
